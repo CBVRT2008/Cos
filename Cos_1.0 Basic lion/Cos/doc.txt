@@ -1,0 +1,7 @@
+restart : restarts the os
+reload : reloads the base functions of the os
+shutdown : shuts down the os
+clear : clears the Os-Prompt
+run (register name) : runs the file specified in the register
+
+© 2020-2021 CBvRT2008 All Rights reserved
