@@ -27,9 +27,9 @@ def Setup():
 def startup():
     global running
 
-    # define crach indicators
+    # define crash indicators
     crashed = True
-    crach_information = "No further information given"
+    crash_information = "No further information given"
 
     # define runtime indicators
     running = True
@@ -58,15 +58,15 @@ def startup():
         print("starting visual mode")
         Canvas.startup()
 
-    main(crashed, crach_information, running)
+    main(crashed, crash_information, running)
 
 
-def main(crached, crach_information, running):
+def main(crashed, crash_information, running):
     while running:
-        Kernel(crached, crach_information, running)
+        Kernel(crashed, crash_information, running)
 
 
-def Kernel(crached, crach_information, running):
+def Kernel(crashed, crash_information, running):
     Read_Keyboard()
     if not running:
         Shutdown()
