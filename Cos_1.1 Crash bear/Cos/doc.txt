@@ -1,0 +1,18 @@
+press f2 to enter command input
+type "exit" to enter hotkey input
+
+while in command mode
+    restart : restarts the os
+    reload : reloads the base functions of the os
+    shutdown : shuts down the os
+    clear : clears the Os-Prompt
+    run (register name) : runs the file specified in the register
+    hotkey : checks all non-system hotkeys, - for test
+    exit : enter hotkey mode
+
+while in hotkey mode
+    f8 : open debugger
+    f2 : enter command mode
+    f3 : crash system
+
+© 2020-2021 CBvRT2008 All Rights reserved
