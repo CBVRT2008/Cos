@@ -1,0 +1,10 @@
+
+
+
+def RunFile(file):
+    try:
+%
+
+
+    except (RuntimeError, TypeError, NameError):
+        print("Couldn't start program")

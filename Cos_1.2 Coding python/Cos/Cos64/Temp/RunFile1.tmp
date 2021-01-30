@@ -1,0 +1,10 @@
+        if file == "Programs/FileEditor":
+            FileEditor.Run()
+        if file == "Programs/Jan":
+            Jan.Run()
+        if file == "Programs/hoi":
+            Poepje.Run()
+        if file == "Programs/no":
+            Poepje.Run()
+        if file == "Programs/naa":
+            Poepje.Run()
